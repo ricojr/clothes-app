@@ -1,7 +1,7 @@
 import React from 'react';
 
 import SHOP_DATA from './shop.data';
-import CollectionPreview from'../../components/collection-item/collection-item.component';
+import CollectionPreview from'../../components/collection-preview/collection-preview.component';
 
 class ShopPage extends React.Component {
     constructor(props){
@@ -21,7 +21,7 @@ class ShopPage extends React.Component {
             ))
             }
         </div>);
-        }
+        } 
 }
 
 export default ShopPage;
