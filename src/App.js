@@ -34,11 +34,15 @@ class App extends React.Component {
               id: snapshot.uid,
               ...snapshot.data()
             }
-          })
-        })
+          });
+          console.log(this.state)
+        });
+          
+          
+          this.setState({currentUser: userAuth});
       }
     })
-  }
+  };
 
   componentWillUnmount(){
     this.unsubscribedFromAuth();
