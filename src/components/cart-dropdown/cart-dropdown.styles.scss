@@ -12,6 +12,15 @@
     top: 90px;
     right: 40px;
     z-index: 5;
+
+    
+    .empty-message{
+     
+      font-size: 18px;
+      margin: inherit;
+      
+      
+    }
   
     .cart-items {
       height: 240px;
@@ -21,7 +30,7 @@
     }
   
     button {
-      margin: 10px auto;
+      margin: 5px auto;
     }
   }
   
